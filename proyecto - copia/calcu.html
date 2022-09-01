@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="estilos.css">    
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Silkscreen">
+    
+    
+</head>
+<body>
+    
+<div class="container">
+    <div class="calculator">
+    <div class="display" id="resultado"></div>
+        
+        <button onclick="display.borrarTodo()" id="reset">C </button>
+        <button class="numero" id="siete"> 7</button>
+        <button class="numero" id="ocho">8 </button>
+        <button class="numero" id="nueve">9 </button>
+        <button class="operador" value="multiplicar" id="multiplicar">x </button>
+        <button class="operador" value="dividir" id="dividir"> / </button>
+        <button class="operador" value="cambiar_signo" id="signo"> +/- </button>
+        <button class="numero" id="cuatro"> 4 </button>
+        <button class="numero" id="cinco"> 5 </button>
+        <button class="numero" id="seis"> 6</button>
+        <button class="operador" value="restar" id="restar"> - </button>
+  <button class="operador" value="elevar" id="elevar"> X <sup>&#9633</sup></button> 
+     <button class="operador" value="porcentaje" id="porcentaje"> %</button>
+        <button class="numero" id="uno"> 1 </button>
+        <button class="numero" id="dos"> 2</button>
+        <button class="numero" id="tres"> 3</button>
+        <button class="operadpr row-2" value="sumar" id="sumar"> + </button>
+         <button class="operador" id="parentesis"> ( ) </button> 
+        <button class="operador" id="raiz"> &#8730 </button> 
+        <button class="numero" id="cero"> 0 </button>
+        <button class="numero" id="punto"> . </button>
+        <button class="operador" value="igual" id="igual"> = </button>
+         <button onclick="display.borrar()" id="borrar_caracter">&larr; </button>
+      
+        
+        
+        
+
+       
+
+    
+    </div>
+    </div>
+    <script type="text/javascript" src="calculadora.js" ></script>
+</body>
+</html>
