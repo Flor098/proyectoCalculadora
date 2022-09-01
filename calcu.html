@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="estilos.css">    
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Silkscreen">
+    <script type="text/javascript" src="Display.js"></script>
+    <script type="text/javascript" src="Calculadora.js"></script>
+    <script type="text/javascript" src="calculos.js" defer></script>
+    
+</head>
+<body>
+<div class="container">
+    <div class="calculad">
+    <div class="display">
+        <div id="valor_anterior"> </div>
+        <div id="valor_actual"> </div>
+    </div>
+        <button onclick="display.borrarTodo()"> C </button>
+        <button class="numero" id="numero"> 7 </button>
+        <button class="numero" id="numero"> 8 </button>
+        <button class="numero" id="numero"> 9 </button>
+        <button class="operador" value="multiplicar"> x </button>
+        <button class="operador" value="dividir"> / </button>
+        <button class="operador" value="cambiar_signo"> +/- </button>
+        <button class="numero" id="numero"> 4 </button>
+        <button class="numero" id="numero"> 5 </button>
+        <button class="numero" id="numero"> 6</button>
+        <button class="operador" value="restar"> - </button>
+        <button class="operador" value="elevar"> X <sup>&#9633</sup></button>
+        <button class="operador" value="porcentaje"> % </button>
+        <button class="numero" id="numero"> 1 </button>
+        <button class="numero" id="numero"> 2 </button>
+        <button class="numero" id="numero"> 3 </button>
+        <button class="operadpr row-2" value="sumar"> + </button>
+        <button class="operador"> ( ) </button>
+        <button class="operador"> &#8730 </button>
+        <button class="numero" id="numero"> 0 </button>
+        <button class="numero"> . </button>
+        <button class="operador" value="igual"> = </button>
+        <button onclick="display.borrar()"> &larr; </button>
+        
+        
+        
+        
+        
+
+       
+
+    
+    </div>
+    </div>
+</body>
+</html>
